@@ -32,6 +32,7 @@ void main()
     case 4:
         double quo=a/b;
         printf("The quotinet of a and b is: %lf\n",quo);
+        break;
     
     default:
         printf("Enter valid choice btween 1-4");

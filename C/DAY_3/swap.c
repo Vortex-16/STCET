@@ -11,7 +11,7 @@ void main()
     temp=a;
     a=b;
     b=temp;
-    printf("The values after swaping are: a=%d b=%d",a,b);
+    printf("The values after swaping are: a=%d b=%d\n",a,b);
 
     //without third variable::
     int sum=a+b;

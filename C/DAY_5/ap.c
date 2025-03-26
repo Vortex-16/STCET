@@ -13,5 +13,5 @@ void main() {
     for (int i = 0; i < n; i++) {
         printf("%d ", a + i * d);
     }
-    printf("\n");
+    //printf("\n");
 }

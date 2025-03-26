@@ -12,7 +12,7 @@ void main()
     {
         next = a + b;
         printf("%d ", next);
-        a = b;
+        a = b;  
         b = next;
     }
     printf("\n");

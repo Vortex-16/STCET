@@ -37,3 +37,11 @@ void main()
         printf("%d ", arr[i]);
     }
 }
+
+// OUTPUT
+// Enter the array size: 5
+// Enter the array Elements:  1 2 3 4 5 
+// The array before changing the position is: 1 2 3 4 5
+// Enter the position to change: 1
+// Enter the new position: 3
+// The array after changing the position is: 1 4 3 2 5

@@ -16,3 +16,11 @@ void main()
         printf("%d ",arr[i]);
     }
 }
+
+// OUTPUT:
+// Enter the array size: 5  
+// Enter the array Elements:  1 2 3 4 5
+// The array is: 1 2 3 4 5
+// Enter the array size: 3
+// Enter the array Elements:  1 2 3
+// The array is: 1 2 3

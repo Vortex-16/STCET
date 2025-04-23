@@ -28,3 +28,8 @@ void main()
         printf("%d ", arr[i]);
     }
 }
+
+// OUTPUT:
+// Enter the array size: 5
+// Enter the array Elements:  5 4 3 2 1
+// The insertion sorted array is: 1 2 3 4 5

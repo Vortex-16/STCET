@@ -7,8 +7,8 @@ void main() {
     printf("Enter the rows and columns for the second matrix:");
     scanf("%d %d", &r2, &c2);
 
-    if (r1 != r2 || c1 != c2) {
-        printf("Matrix addition is not possible as dimensions do not match.\n");
+    if (r1 != c2 || c1 != r2) {
+        printf("Matrix multipcation is not possible as dimensions do not match.\n");
         return;
     }
 

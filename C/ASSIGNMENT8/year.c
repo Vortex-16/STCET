@@ -18,7 +18,7 @@ void main()
         printf("1");
     } else {
        
-        printf("0");
+        printf(" ");
         printf("%d is not a leap year.\n", yr);
     }
 }

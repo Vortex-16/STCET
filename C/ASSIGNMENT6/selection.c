@@ -36,3 +36,11 @@ void main()
 // Enter the array size: 5
 // Enter the array Elements:  5 4 3 2 1
 // The selection sorted array is: 1 2 3 4 5
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1) as we are using a constant amount of space for the    variables.
+// This code implements the selection sort algorithm to sort an array of integers in ascending order.
+// The algorithm divides the input array into two parts: a sorted part and an unsorted part. It repeatedly selects the smallest (or largest, depending on the order) element from the unsorted part and moves it to the end of the sorted part.
+// The outer loop runs n-1 times, where n is the size of the array, and the inner loop runs at most n times in the worst case, leading to a time complexity of O(n^2).
+// The space complexity is O(1) since we are using a constant amount of space for the variables.
+// This code is efficient for small arrays and provides a simple way to sort elements based on their values. However, it is not the most efficient sorting algorithm for large datasets due to its O(n^2) time complexity. For larger datasets, more efficient algorithms like quicksort or mergesort are generally preferred.

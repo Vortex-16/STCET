@@ -33,3 +33,9 @@ void main()
 // Enter the array size: 5
 // Enter the array Elements:  5 4 3 2 1
 // The insertion sorted array is: 1 2 3 4 5
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1) as we are using a constant amount of space for the variables. 
+// This code implements the insertion sort algorithm to sort an array of integers in ascending order.
+// The algorithm builds a sorted array one element at a time by repeatedly taking the next element and inserting it into the correct position in the already sorted part of the array.
+// The outer loop runs n-1 times, where n is the size of the array, and the inner loop runs at most n times in the worst case, leading to a time complexity of O(n^2).

@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
     int arr_size, i ,j;
     printf("Enter the array size: ");
@@ -15,6 +15,7 @@ void main()
     {
         printf("%d ",arr[i]);
     }
+    return 0;
 }
 
 // OUTPUT:

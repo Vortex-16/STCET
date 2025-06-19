@@ -1,4 +1,4 @@
-//armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits
+//armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits ,ex: 153 = 1^3 + 5^3 + 3^3 = 153
 
 #include <stdio.h>
 #include <math.h>
